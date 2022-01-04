@@ -7,7 +7,7 @@
   --card-background: black;
 }
 
-@media only screen and (min-device-width: 520px) and (max-device-width: 1000px)  {
+@media only screen and (min-device-width: 520px) and (max-device-width: 1000px)  and (-webkit-min-device-pixel-ratio: 2) {
   
   p.footer-description,
   a.footer-description {
@@ -100,6 +100,35 @@
     margin-top: 2rem !important;
   }
 
+
+div.visit-position {
+  background-color: white;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  height: fit-content;
+  font-size: 25px;
+  font-family: var(--font);
+  font-weight: 600;
+  margin: 0 0 2rem 0 !important;
+}
+
+p.visit-message {
+  background-color: white;
+  background: linear-gradient(
+    white
+  ); /* Chrome 10-25, Safari 5.1-6 */
+
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  height: fit-content;
+  font-size: 19px !important;
+  font-family: var(--font);
+  font-weight: 600;
+}
 
 
   
@@ -479,6 +508,22 @@ div.visit-position {
   font-family: var(--font);
   font-weight: 600;
   margin: 0 0 2rem 0 !important;
+}
+
+p.visit-message {
+  background-color: white;
+  background: linear-gradient(
+    white
+  ); /* Chrome 10-25, Safari 5.1-6 */
+
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  height: fit-content;
+  font-size: 19px !important;
+  font-family: var(--font);
+  font-weight: 600;
 }
 
 
